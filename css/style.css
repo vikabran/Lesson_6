@@ -1,0 +1,93 @@
+/* Обнуляючий стиль */
+
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap);
+
+.list {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	margin: 50px 0 10px 10px;
+	color: red;
+	background-color: yellow;
+	border: 5px solid saddlebrown;
+	border-radius: 10px 20px 15px 25px;
+	box-shadow: 10px 10px 20px 20px palegreen;
+}
+h1 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	color: blueviolet;
+	margin: 0px 500px;
+}
+.roboto {
+	font-family: "Roboto", sans-serif;
+	padding: 0 50px;
+	color: blue;
+	text-decoration: underline;
+	background-color: greenyellow;
+	border-top: 10px dotted darkcyan;
+	border-radius: 50%;
+}
+.img {
+	margin: 50px 500px;
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+}
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	color: yellow;
+	margin: 20px 500px;
+	text-align: center;
+}
+.text {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	text-shadow: 2px 2px green;
+	text-align: right;
+	text-transform: lowercase;
+	background-color: blue;
+	border: 15px double darkkhaki;
+	outline: 10px solid sandybrown;
+	opacity: 0.5;
+}
+span {
+	text-transform: uppercase;
+	color: orange;
+	padding: 10px;
+	background-color: aquamarine;
+}
+.list-two {
+	font-family: "Roboto";
+	color: aqua;
+	margin: 10px;
+	text-decoration: overline;
+	background-color: black;
+	border-left: 15px solid salmon;
+}
+.text-two {
+	color: aquamarine;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 900;
+	margin: 10px;
+	text-decoration: line-through;
+	background-color: blueviolet;
+	border-right: 10px dotted darkorange;
+	outline: 15px dashed silver;
+}
+.visibility {
+	visibility: hidden;
+	background-color: blue;
+}
+.none {
+	display: none;
+}
+.opasity {
+	opacity: 0;
+}
