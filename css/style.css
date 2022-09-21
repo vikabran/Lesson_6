@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.content {
+	max-width: 810px;
+	margin: 0 auto;
+	font-family: "Lato", serif;
+	color: #424551;
+	font-size: 16px;
+	line-height: 160%;
+}
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 92px;
+}
+.image {
+	max-width: 100%;
+	margin-bottom: 60px;
+}
+.text-bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.par-1 {
+	margin-bottom: 30px;
+}
+.par-2 {
+	margin-bottom: 48px;
+}
+.lorem {
+	padding-left: 58px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 48px;
+}
+.mauris {
+	margin-bottom: 24px;
+}
+.list {
+	padding-left: 32px;
+}
+.item {
+	margin-bottom: 4px;
+}
+.item-last {
+	margin-bottom: 24px;
+}
+.enim {
+	margin-bottom: 300px;
+}
+
+.homework {
+	max-width: 1000px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.width-height {
+	background-color: wheat;
+	width: 800px;
+	height: 300px;
+	padding: 50px;
+	margin-bottom: 20px;
+	border: 10px solid tomato;
+	color: yellowgreen;
+}
+.max {
+	background-color: rebeccapurple;
+	max-width: 500px;
+	max-height: 200px;
+	margin-bottom: 20px;
+	padding: 15px;
+	overflow: hidden;
+	border: 5px dotted turquoise;
+	color: yellow;
+}
+.min {
+	background-color: red;
+	min-width: 200px;
+	min-height: 200px;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 15px dashed blue;
+	color: indigo;
+}
+.overflow {
+	max-height: 200px;
+	overflow: scroll;
+	background-color: rosybrown;
+	padding: 15px;
+	margin-bottom: 20px;
+	color: ivory;
+	border: 20px double olive;
+	border-radius: 20px;
+}
+.auto {
+	background-color: royalblue;
+	max-height: 100px;
+	max-width: 700px;
+	overflow: auto;
+	padding: 15px;
+	margin-bottom: 20px;
+	color: orange;
+	outline: 5px solid olivedrab;
+}
+span {
+	display: block;
+	margin-bottom: 50px;
+	padding: 15px;
+	background-color: tan;
+	max-width: 800px;
+	color: indianred;
+	outline: 10px dashed orangered;
+	border-radius: 10px 20px 50px 5px;
+}
+.padding-inline {
+	max-height: 200px;
+	margin-bottom: 20px;
+	color: red;
+	background-color: yellow;
+	font-family: "Lato", serif;
+	font-weight: 900;
+}
+.block {
+	display: inline;
+	background-color: teal;
+	padding: 15px;
+}
+.inline-block {
+	display: inline-block;
+	background-color: thistle;
+	padding: 15px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	color: olivedrab;
+	outline: 7px dotted orchid;
+	border-radius: 10%;
+	box-shadow: inset 5px 5px 10px 15px papayawhip;
+}
+.display-none {
+	background-color: salmon;
+	color: seagreen;
+	min-height: 200px;
+	padding: 15px;
+	margin-bottom: 50px;
+	display: none;
+}
+.double {
+	color: palevioletred;
+	background-color: palegreen;
+	font-size: 20px;
+	padding: 15px;
+	margin-bottom: 20px;
+	outline: 20px double palegoldenrod;
+	margin-bottom: 70px;
+	opacity: 50%;
+}
+.circle {
+	background-color: paleturquoise;
+	border-radius: 50%;
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+	box-shadow: -5px -7px 20px 10px aqua;
+	margin-bottom: 20px;
+}
+.invisible {
+	min-height: 200px;
+	background-color: aquamarine;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 90px;	
+	margin-bottom: 20px;
+	color: saddlebrown;
+	font-weight: 700;
+	text-decoration: underline;
+	opacity: 0;
+}
+.invisible-hidden {
+	min-height: 200px;
+	background-color: aquamarine;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 90px;	
+	margin-bottom: 20px;
+	color: saddlebrown;
+	font-weight: 700;
+	text-decoration: underline;
+	visibility: hidden;
+}
